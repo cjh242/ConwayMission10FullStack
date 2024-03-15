@@ -6,6 +6,6 @@ namespace fullstack10.Data
     {
         IEnumerable<Bowler> Bowlers { get; }
 
-        IEnumerable<object> GetAllBowlersWithTeams();
+        IEnumerable<object> GetAllBowlersWithTeamsSharksMarlins();
     }
 }

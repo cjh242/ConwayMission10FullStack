@@ -12,9 +12,10 @@ namespace fullstack10.Data
         }
         public IEnumerable<Bowler> Bowlers => _bowlerContext.Bowlers;
 
-        public IEnumerable<object> GetAllBowlersWithTeams()
+        public IEnumerable<object> GetAllBowlersWithTeamsSharksMarlins()
         {
             var bowlersWithTeams = _bowlerContext.Bowlers
+            .Where(b => b.Team != null && (b.Team.TeamName == "Sharks" || b.Team.TeamName == "Marlins"))
             .Select(b => new
             {
                 b.BowlerId,

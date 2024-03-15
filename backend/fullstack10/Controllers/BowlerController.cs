@@ -21,7 +21,7 @@ namespace fullstack10.Controllers
         {
             var bowlers = _bowlerRepository.Bowlers.ToArray();
 
-            var bowlersWithTeams = _bowlerRepository.GetAllBowlersWithTeams();
+            var bowlersWithTeams = _bowlerRepository.GetAllBowlersWithTeamsSharksMarlins();
 
             return bowlersWithTeams;
         }
