@@ -16,7 +16,7 @@ function BowlerList() {
   return (
     <>
       <div className="row">
-        <h4 className="text-centered">BOWLERS</h4>
+        <h4 className="text-center">BOWLERS</h4>
       </div>
       <table className="table table-bordered">
         <thead>
