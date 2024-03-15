@@ -125,3 +125,4 @@ C:\Users\conwayhogan\source\repos\ConwayMission10\backend\fullstack10\obj\Debug\
 C:\Users\conwayhogan\source\repos\ConwayMission10\backend\fullstack10\obj\Debug\net8.0\fullstack10.pdb
 C:\Users\conwayhogan\source\repos\ConwayMission10\backend\fullstack10\obj\Debug\net8.0\fullstack10.genruntimeconfig.cache
 C:\Users\conwayhogan\source\repos\ConwayMission10\backend\fullstack10\obj\Debug\net8.0\ref\fullstack10.dll
+C:\Users\conwayhogan\source\repos\ConwayMission10\backend\fullstack10\obj\Debug\net8.0\fullstack10.sourcelink.json

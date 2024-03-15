@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Bowler } from '../types/Bowler';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function BowlerList() {
   const [bowlerData, setbowlerData] = useState<Bowler[]>([]);
